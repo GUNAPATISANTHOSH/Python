@@ -1,0 +1,6 @@
+a = int(input("enter a number: "))
+b = int(input("enter a number: "))
+c = int(input("enter a number: "))
+num=list(a,b,c)
+num.sort()
+print(num)

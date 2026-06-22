@@ -1,0 +1,13 @@
+'''print("santhosh")
+print(21)
+city="banglore" 
+print(city)
+a=10
+b=20
+c=a+b
+print(c)'''
+a=10
+b=20
+a,b=b,a
+print(a)
+print(b)

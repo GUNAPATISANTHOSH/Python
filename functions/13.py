@@ -20,6 +20,6 @@ cars=[
     { "brand": "MG", "model": "Hector", "price": 1800000, "color": "White" }, 
     { "brand": "Nissan", "model": "Magnite", "price": 900000, "color": "Silver" } 
 ]
-# Increase Every Car Price by ₹50,000 Use map() to create a new list with updated prices
-n_price=list(map(lambda car:car['price']+50000,cars))
-print(n_price)
+# Print Luxury Cars - Display cars costing more than ₹15 lakhs
+price=list(filter(lambda car:car['price']>1500000,cars))
+print(price)

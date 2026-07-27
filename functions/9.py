@@ -1,3 +1,4 @@
+# Display Only Red and White Cars Use filter() to display cars whose colour is either red or white.
 cars=[
     {"brand": "Maruti Suzuki", "model": "Swift", "price": 650000, "color": "Red" }, 
     {"brand": "Maruti Suzuki", "model": "Swift", "price": 650000, "color": "Red" }, 
@@ -20,6 +21,5 @@ cars=[
     { "brand": "MG", "model": "Hector", "price": 1800000, "color": "White" }, 
     { "brand": "Nissan", "model": "Magnite", "price": 900000, "color": "Silver" } 
 ]
-# Increase Every Car Price by ₹50,000 Use map() to create a new list with updated prices
-n_price=list(map(lambda car:car['price']+50000,cars))
-print(n_price)
+n_color=list(filter(lambda car:car ['color'] in ["Red","White"],cars))
+print(n_color)
